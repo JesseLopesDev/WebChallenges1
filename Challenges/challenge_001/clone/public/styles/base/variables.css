@@ -1,0 +1,9 @@
+:root {
+  --primary-color: #9aaed5;
+  --secondary-color: #fff;
+  --primary-dark-color: #5d81b5;
+  --secondary-dark-color: #305283;
+  --tertiary-color: #bfd0da;
+
+  font-size: 62.5%;
+}

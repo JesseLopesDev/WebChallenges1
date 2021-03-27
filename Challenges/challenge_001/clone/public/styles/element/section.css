@@ -1,0 +1,39 @@
+.avatar-wrapper__avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 15rem;
+  border: 0.2rem solid var(--secondary-color);
+  border-radius: 50%;
+  margin-bottom: 1.6rem;
+}
+
+.sign-in__line {
+  width: 71px;
+  border-bottom: 0.2rem solid var(--secondary-color);
+}
+
+.sign-in__title {
+  font-size: 3rem;
+  font-weight: 300;
+  color: var(--secondary-color);
+  margin: 0 1.6rem;
+}
+
+@media screen and (min-width: 375px) {
+  .sign-in__line {
+    width: 8.3rem;
+  }
+
+  .sign-in__title {
+    font-size: 3.6rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .generic-section__divider {
+    height: 648px;
+    border-right: 0.2rem solid var(--secondary-color);
+  }
+}

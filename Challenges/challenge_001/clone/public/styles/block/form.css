@@ -1,0 +1,10 @@
+.form {
+  width: 100%;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2.9rem 0 4rem 0;
+}
