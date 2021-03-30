@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Sign In</title>
+
+    <link rel="stylesheet" href="/public/styles/base/reset.css" />
+    <link rel="stylesheet" href="/public/styles/base/variables.css" />
+    <link rel="stylesheet" href="/public/styles/block/main.css" />
+    <link rel="stylesheet" href="/public/styles/block/user.css" />
+    <link rel="stylesheet" href="/public/styles/block/form.css" />
+    <link rel="stylesheet" href="/public/styles/element/generic.css" />
+    <link rel="stylesheet" href="/public/styles/element/user.css" />
+    <link rel="stylesheet" href="/public/styles/element/form.css" />
+    <link rel="stylesheet" href="/public/styles/modifier/error-message.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap" />
+  </head>
+
+  <body>
+    <main class="main">
+      <div class="generic">
+        <div class="generic__divider"></div>
+      </div>
+
+      <div class="section-wrapper">
+        <section class="section user">
+          <img 
+            class="user__avatar" 
+            src="/public/image/avatar@2x.png" 
+            alt="User avatar" 
+          />
+
+          <h1 class="user__name">Josh Smith</h1>
+
+          <div class="user__dividing-line"></div>
+        </section>
+
+        <section class="section">
+          <form class="form" id="login-form">
+            <fieldset class="fieldset">
+              <div class="fieldset__container">
+                <label class="fieldset__label" for="email">Email</label>
+                <input 
+                  type="email"
+                  name="email"
+                  class="fieldset__input"
+                  id="email"
+                  placeholder="email@gmail.com"
+                  onkeypress="clearMessages()"
+                />
+              </div>
+
+              <span class="is-error-message is-error"></span>
+
+              <div class="fieldset__container">
+                <label class="fieldset__label" for="email">Password</label>
+                <input 
+                  type="password"
+                  name="password"
+                  class="fieldset__input fieldset__password"
+                  id="password"
+                  placeholder="your password"
+                  onkeypress="clearMessages()"
+                />
+              </div>
+
+              <span class="is-error-message is-error"></span>
+
+              <div class="wrapper">
+                <div class="wrapper__checkbox-wrapper">
+                  <input 
+                    type="checkbox"
+                    name="checkbox"
+                    class="wrapper__checkbox"
+                    id="remember-me"
+                    checked
+                  />
+
+                  <label class="wrapper__label" for="remember-me">Remember me</label>
+                </div>
+
+                <a class="wrapper__link" href="#">
+                  Forgot password?
+                </a>
+              </div>
+
+              <button class="fieldset__login-button">
+                Login
+              </button>
+
+              <p class="fieldset__create-account">
+                Not registered?
+                <a class="fieldset__link" href="#">
+                  Create an account!
+                </a>
+              </p>
+            </fieldset>
+          </form>
+        </section>
+      </div>
+    </main>
+    
+    <script src="/public/script/validates-form.js"></script>
+  </body>
+</html>
