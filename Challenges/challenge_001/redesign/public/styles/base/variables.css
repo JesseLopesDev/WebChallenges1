@@ -1,0 +1,10 @@
+:root {
+  --main-color: #2E4058;
+  --secondary-color: #476A97;
+  --background-button-color: #3A5577;
+  --neutral-color: #fff;
+  --link-color: #90A9D0;
+  --error-color: #d85151;
+
+  font-size: 62.5%;
+}

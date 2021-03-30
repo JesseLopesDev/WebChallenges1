@@ -1,0 +1,136 @@
+.fieldset__container {
+  position: relative;
+}
+
+.fieldset__label {
+  display: block;
+  font-size: 1.6rem;
+  color: var(--neutral-color);
+  padding: 0 0.8rem;
+  background-color: var(--main-color);
+  position: absolute;
+  top: -1.2rem;
+  left: 0.8rem;
+}
+
+.fieldset__input {
+  display: block;
+  width: 100%;
+  height: 5rem;
+  background-color: var(--main-color);
+  border: 0.2rem solid var(--secondary-color);
+  border-radius: 0.5rem;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 1.8rem;
+  color: var(--neutral-color);
+  padding-left: 1.6rem;
+  margin-bottom: 2.8rem;
+  outline: none;
+}
+
+.fieldset__input::placeholder {
+  font-size: 1.6rem;
+  color: var(--secondary-color);
+}
+
+.fieldset__input:focus {
+  border: 0.2rem solid var(--neutral-color);
+}
+
+.fieldset__password {
+  font-family: initial;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.fieldset__password::placeholder {
+  letter-spacing: 0;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.wrapper__checkbox-wrapper {
+  margin-top: 0.6rem;
+}
+
+.wrapper__checkbox[type=checkbox] {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+
+.wrapper__label {
+  position: relative;
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--neutral-color);
+  margin-left: 4rem;
+  top: -0.4rem;
+}
+
+.wrapper__label::before {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  width: 2.4rem;
+  height: 2.4rem;
+  border: 0.2rem solid var(--neutral-color);
+  border-radius: 0.5rem;
+  margin-left: -4rem;
+  left: 0rem;
+  top: -0.1rem;
+}
+
+.wrapper__label::after {
+  position: absolute;
+  content: url('/public/icons/check-solid.svg');
+  height: 0.9rem;
+  width: 0.9rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  left: -3.2rem;
+  top: -0.2rem;
+  transform: scale(0);
+  transition: transform 0.2s linear;
+}
+
+.wrapper__checkbox:checked + .wrapper__label::after {
+  transform: scale(1);
+}
+
+.wrapper__link {
+  font-size: 1.4rem;
+  color: var(--link-color);
+}
+
+.wrapper__link:hover {
+  text-decoration: underline;
+}
+
+.fieldset__login-button {
+  display: block;
+  width: 100%;
+  height: 5rem;
+  background-color: var(--background-button-color);
+  border: none;
+  border-radius: 0.5rem;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 1.8rem;
+  color: var(--neutral-color);
+  margin-bottom: 1.6rem;
+  cursor: pointer;
+}
+
+.fieldset__create-account {
+  text-align: center;
+  font-size: 1.4rem;
+  color: var(--neutral-color);
+}
+
+.fieldset__link {
+  color: var(--link-color);
+}
+
+.fieldset__link:hover {
+  text-decoration: underline;
+}

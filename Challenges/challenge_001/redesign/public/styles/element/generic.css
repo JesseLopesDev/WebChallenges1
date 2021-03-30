@@ -1,0 +1,6 @@
+@media screen and (min-width: 1024px) {
+  .generic__divider {
+    height: 648px;
+    border-right: 0.2rem solid var(--neutral-color);
+  }
+}
