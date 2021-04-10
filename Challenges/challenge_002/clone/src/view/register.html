@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Register</title>
+
+    <link rel="stylesheet" href="/public/styles/base/reset.css" />
+    <link rel="stylesheet" href="/public/styles/block/main.css" />
+    <link rel="stylesheet" href="/public/styles/base/variable.css" />
+    <link rel="stylesheet" href="/public/styles/block/header.css" />
+    <link rel="stylesheet" href="/public/styles/element/navigation.css" />
+    <link rel="stylesheet" href="/public/styles/modifier/selection.css" />
+    <link rel="stylesheet" href="/public/styles/block/form.css" />
+    <link rel="stylesheet" href="/public/styles/element/form.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" />
+  </head>
+
+  <body class="body">
+    <div class="generic"></div>
+
+    <div class="content">
+      <header class="header">
+        <nav class="navigation">
+          <ul class="navigation__item-list">
+            <div class="navigation__container">
+              <li class="navigation__item">
+                <a class="navigation__item--active" href="#">
+                  Register
+                </a>
+
+                <div class="navigation__item--active-line"></div>
+              </li>
+            </div>
+
+            <div class="navigation__container">
+              <li class="navigation__item">
+                <a class="navigation__item--inactive" href="#">
+                  Login
+                </a>
+
+                <div class="navigation__item--inactive-line"></div>
+              </li>
+            </div>
+          </ulclass=>
+        </nav>
+      </header>
+
+      <main>
+        <section>
+          <form class="form">
+            <fieldset class="fieldset">
+              <div class="fieldset_container">
+                <input 
+                type="text"
+                name="full-name"
+                class="fieldset__input"
+                id="full-name"
+                required
+                />
+
+                <label class="fieldset__label" for="full-name">Full Name</label>
+              </div>
+
+              <div class="fieldset_container">
+                <input 
+                type="email" 
+                name="email-address"
+                class="fieldset__input"
+                id="email-address"
+                required
+                />
+
+                <label class="fieldset__label" for="email-address">Email Address</label>
+              </div>
+
+              <div class="fieldset_container">
+                <input 
+                type="number" 
+                name="mobile-number"
+                class="fieldset__input"
+                id="mobile-number"
+                required
+                />
+
+                <label class="fieldset__label" for="mobile-number">Mobile Number</label>
+              </div>
+
+              <div class="fieldset_container">
+                <input 
+                type="password"
+                name="set-password"
+                class="fieldset__input fieldset__password"
+                id="set-password"
+                required
+                />
+
+                <label class="fieldset__label" for="set-password">Set Password</label>
+              </div>
+
+              <div class="wrapper">
+                <input 
+                  type="checkbox"
+                  name="age-checkbox"
+                  class="wrapper__checkbox"
+                  id="age-checkbox"
+                />
+
+                <label class="wrapper__label" for="age-checkbox">
+                  I hereby certify that I am atleast 18 years of age
+                </label>
+              </div>
+
+              <div class="wrapper terms">
+                <input 
+                  type="checkbox"
+                  name="terms-and-policy"
+                  class="wrapper__checkbox"
+                  id="terms-and-policy"
+                />
+
+                <label class="wrapper__label wrapper__terms" for="terms-and-policy">
+                  I have read and accept the <a class="wrapper__link" href="#">Terms of Use</a> and <a class="wrapper__link" href="#">Privacy Policy</a>
+                </label>
+              </div>
+
+              <button class="fieldset__register-button">
+                Register Now
+
+                <img class="fieldset__arrow-icon" src="/public/icons/arrow-right-solid.svg" alt />
+              </button>
+            </fieldset>
+          </form>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
