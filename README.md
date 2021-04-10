@@ -16,12 +16,13 @@ Repositório de estudos com desafios **web** já resolvidos.
 **Front-End**
 
 - HTML
-- CSS
+- CSS ([BEM](http://getbem.com/naming/) - Block Element Modifier / [SMACSS](http://smacss.com/) - Scalable and Modular Arquitecture for CSS)
 - JavaScript
 
-**Web Acessibility**
+**Web Acessibility Test**
 
-- NVDA (NonVisual Desktop Access)
+- [NVDA](https://www.nvaccess.org/) (NonVisual Desktop Access)
+
 
 ## Desafios
 
