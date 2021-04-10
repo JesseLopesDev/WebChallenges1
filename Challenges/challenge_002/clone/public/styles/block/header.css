@@ -1,0 +1,9 @@
+.header {
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 525px) {
+  .header {
+    width: 424px;
+  }
+}

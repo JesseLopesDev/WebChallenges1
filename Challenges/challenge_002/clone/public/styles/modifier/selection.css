@@ -1,0 +1,24 @@
+.navigation__item--active {
+  width: 100%;
+  color: var(--tertiary-color);
+}
+
+.navigation__item--active-line {
+  border-bottom: 0.3rem solid var(--tertiary-color);
+  margin-top: 1.5rem;
+}
+
+.navigation__item--inactive {
+  width: 100%;
+  color: var(--quaternary-color);
+}
+
+.navigation__item--inactive:hover {
+  color: var(--tertiary-color);
+  transition: color .3s;
+}
+
+.navigation__item--inactive-line {
+  border-bottom: 0.1rem solid var(--secondary-color);
+  margin-top: 1.6rem;
+}

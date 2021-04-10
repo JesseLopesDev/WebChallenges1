@@ -1,0 +1,15 @@
+.navigation__item-list {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation__container {
+  width: 108px;
+  text-align: center;
+}
+
+.navigation__item {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}

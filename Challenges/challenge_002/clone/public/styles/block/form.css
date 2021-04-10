@@ -1,0 +1,13 @@
+.wrapper {
+  margin-top: 2.6rem;
+}
+
+.terms {
+  margin-bottom: 4.5rem;
+}
+
+@media (min-width: 525px) {
+  .form {
+    width: 424px;
+  }
+}

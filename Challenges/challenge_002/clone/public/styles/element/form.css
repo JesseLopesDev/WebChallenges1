@@ -1,0 +1,142 @@
+.fieldset_container {
+  position: relative;
+}
+
+.fieldset__label {
+  position: absolute;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  bottom: 1.6rem;
+  left: 0.8rem;
+  pointer-events: none;
+  transition: all .2s ease;
+}
+
+.fieldset__input {
+  display: block;
+  width: 100%;
+  height: 2rem;
+  border-bottom: 0.1rem solid var(--secondary-color);
+  margin-bottom: 5.6rem;
+  color: var(--font-color);
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding: 1.4rem 0 1.6rem 0.8rem;
+}
+
+.fieldset__input:focus {
+  height: 5.5rem;
+  background: url('/public/icons/check.svg') 96% 2.3rem no-repeat;
+}
+
+.fieldset__input:valid {
+  height: 5.5rem;
+  padding-top: 2.5rem;
+}
+
+.fieldset__input:focus ~ .fieldset__label,
+.fieldset__input:valid ~ .fieldset__label {
+  transform: translateY(-1rem);
+  font-size: 1.4rem;
+  color: var(--tertiary-color);
+  top: 0.8em;
+  left: 0;
+}
+
+.fieldset__password {
+  margin-bottom: 4rem;
+}
+
+.wrapper__checkbox {
+  margin-bottom: 2rem;
+}
+
+.wrapper__checkbox[type=checkbox] {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+
+.wrapper__label {
+  position: relative;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--quaternary-color);
+  margin-left: 2.8rem;
+  top: 0.2rem;
+}
+
+.wrapper__label::before {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  width: 2rem;
+  height: 2rem;
+  border: 0.1rem solid var(--quaternary-color);
+  border-radius: 0.3rem;
+  margin-left: -2.8rem;
+  left: 0rem;
+  top: -0.3rem;
+}
+
+.wrapper__label::after {
+  position: absolute;
+  content: url('/public/icons/checkbox.svg');
+  height: 2rem;
+  background-color: var(--tertiary-color);
+  border-radius: 0.3rem;
+  display: inline-block;
+  left: -2.8rem;
+  top: -0.3rem;
+  transform: scale(0);
+  transition: transform 0.2s linear;
+}
+
+.wrapper__checkbox:checked + .wrapper__label::after {
+  transform: scale(1);
+}
+
+.wrapper__link {
+  color: var(--quaternary-color);
+  text-decoration: underline;
+}
+
+.fieldset__register-button {
+  position: relative;
+  display: block;
+  width: 232px;
+  height: 5rem;
+  margin: 0 auto;
+  background-color: var(--tertiary-color);
+  border-radius: 5rem;
+  color: var(--main-color);
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.fieldset__arrow-icon {
+  position: absolute;
+  top: 1.7rem;
+  right: 1.6rem;
+}
+
+@media (min-width: 525px) {
+  .fieldset__input:focus {
+    background-position: 97.5% 2.3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .fieldset__input {
+    margin-bottom: 4rem;
+  }
+
+  .fieldset__input:focus {
+    background-position: 97% 2.3rem;
+  }
+}

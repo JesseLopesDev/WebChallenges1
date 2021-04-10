@@ -1,0 +1,13 @@
+:root {
+  --main-background-color: #E6E9EA;
+  --background-color: #ecedee;
+  --main-color: #fff;
+  --secondary-color: #d7dbdc;
+  --tertiary-color: #1e90ff;
+  --quaternary-color: #888;
+  --check-color: #7cd07a;
+  --font-color: #000;
+  --generic-section-color: #272262;
+
+  font-size: 62.5%;
+}
