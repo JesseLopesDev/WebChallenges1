@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="checkbox" transform="translate(-36 -429)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="20" height="20" rx="3" transform="translate(36 429)" fill="#1e90ff"/>
+    <path id="check-solid" d="M4.416,74.6.191,70.377a.65.65,0,0,1,0-.919l.919-.919a.65.65,0,0,1,.919,0l2.846,2.846,6.1-6.1a.65.65,0,0,1,.919,0l.919.919a.65.65,0,0,1,0,.919L5.335,74.6a.65.65,0,0,1-.919,0Z" transform="translate(39.499 368.957)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="check" transform="translate(-317.75 -160.75)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(317.75 160.75)" fill="#fff" stroke="#7cd07a" stroke-width="1.5">
+      <circle cx="8" cy="8" r="8" stroke="none"/>
+      <circle cx="8" cy="8" r="7.25" fill="none"/>
+    </g>
+    <path id="check-solid" d="M2.188,69.808.095,67.714a.322.322,0,0,1,0-.456L.55,66.8a.322.322,0,0,1,.456,0l1.411,1.41,3.021-3.021a.322.322,0,0,1,.456,0l.456.456a.322.322,0,0,1,0,.456l-3.7,3.7a.322.322,0,0,1-.456,0Z" transform="translate(322.528 101.152)" fill="#7cd07a"/>
+  </g>
+</svg>
